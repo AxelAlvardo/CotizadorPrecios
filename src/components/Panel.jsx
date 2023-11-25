@@ -33,7 +33,6 @@ export const Panel = () => {
       setTotal(resultadoTotalPagar);
   }, [cantidad, plazo])
 
-
   useEffect(()=>{
     setPagos(total/plazo);
   }, [total])
